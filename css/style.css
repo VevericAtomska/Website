@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #f9f9f9;
+
+}
+.header{
+    background-color: #333;
+    color: #f9f9f9;
+
+}
+
+.middle li a {
+    background-color: transparent;
+    color: white;
+}
+.header .middle{
+    text-transform: uppercase;
+    font-size: 250%;
+    text-decoration: none;
+}
+.header .middle li, a {
+    list-style: none;
+    display: inline-block;
+
+}
+.header .middle li, a:hover{
+    background-color: #777;
+
+}
+.first-page{
+
+    background-color: darkseagreen;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-size: cover;
+    color: #fff;
+
+}
+.first-page h1{
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.first-page p{
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.first-page h1 p {
+    color: #f9f9f9;
+}
+
+.first-page .btn  {
+    text-transform: uppercase;
+    display:inline;
+    border: solid black;
+    font-size: large;
+    padding-right: 7px;
+    transition: 0.3s;
+    font-weight: bold;
+
+}
+.exlore-devices {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.exlore-devices .apple {
+    background-size: cover;
+    background-position: center ;
+    height: 360px;
+    color: #fff;
+}
+.exlore-devices .apple .apple-inner{
+    background-color: rgba(0 ,0 ,0 ,0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.exlore-devices .apple .apple-inner .apple-content {
+    position: absolute;
+    bottom: 25px;
+}
+.exlore-devices .apple .apple-inner .apple-content:before {
+    content: "";
+    width: 3px;
+    height: 55px;
+    background-color: #fff;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+
+}
+.air-pods h2 {
+    text-align: center;
+    font-size: xxx-large;
+}
+.air-pods p {
+    font-size: 36px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 37px;
+}
+.air-pods .air-pods-img{
+    display: block;
+}
+.new-iphone{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.new-iphone .pre-order {
+    padding-left: 240px;
+}
+.new-iphone .pre-order a {
+    padding: 20px;
+    clip-path: ellipse(50% 36% at 50% 50%);
+    background-color: aqua;
+    size: 40px;
+    font-size: x-large;
+    font-family: "Times New Roman";
+    color: blueviolet;
+    font-weight: bolder;
+}
+.new-iphone .pre-order .countdown{
+    font-size: xxx-large;
+    display: block;
+    border: 1px solid aqua ;
+    background-color: #777777;
+    text-align: center;
+    font-family: "Arial Rounded MT Bold";
+    color:darkred ;
+}
+.release-date{
+    text-align: center;
+}
+.release-date h4 {
+    font-size: xx-large;
+}
+.release-date p {
+    font-size: x-large;
+}
+.creations-names{
+    padding-bottom: 40px;
+    padding-top: 30px;
+    background-color: #333;
+    text-align: center;
+    color: #2cccc4;
+}
+.creations-names p {
+    font-size: large;
+}

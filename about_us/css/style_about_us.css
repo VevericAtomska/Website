@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #f9f9f9;
+
+}
+.header{
+    background-color: #333;
+    color: #f9f9f9;
+
+}
+
+.middle li a {
+    background-color: transparent;
+    color: white;
+}
+.header .middle{
+    text-transform: uppercase;
+    font-size: 250%;
+    text-decoration: none;
+}
+.header .middle li, a {
+    list-style: none;
+    display: inline-block;
+
+}
+.header .middle li, a:hover{
+    background-color: #777;
+
+}
+.about_us{
+    background-image: url("../images/about_us.jpg");
+    text-align: center;
+    color: black;
+}
+.about_us h1 {
+    font-size: xxx-large;
+}
+.about_us p {
+    font-size: x-large;
+}
+.creations-names{
+    padding-bottom: 40px;
+    padding-top: 60px;
+    background-color: #333;
+    text-align: center;
+    color: #2cccc4;
+}
+.creations-names p {
+    font-size: large;
+}

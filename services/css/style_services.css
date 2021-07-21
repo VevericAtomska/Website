@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #f9f9f9;
+
+}
+.header{
+    background-color: #333;
+    color: #f9f9f9;
+
+}
+
+.middle li a {
+    background-color: transparent;
+    color: white;
+}
+.header .middle{
+    text-transform: uppercase;
+    font-size: 250%;
+    text-decoration: none;
+}
+.header .middle li, a {
+    list-style: none;
+    display: inline-block;
+
+}
+.header .middle li, a:hover{
+    background-color: #777;
+
+}
+.services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url("../images/services.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: darkgrey;
+    color: darkblue;
+}
+.services h1{
+    font-size: xxx-large;
+    padding-bottom: 60px;
+    padding-top: 55px;
+}
+.services p {
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-size: xx-large;
+    color: blue;
+}
+.services a{
+    font-size: xx-large;
+    border: 4px solid mediumslateblue;
+    transition: 2s;
+    background-color: white;
+    display: inline-block;
+}
+
+
+
+.creations-names{
+    padding-bottom: 40px;
+    padding-top: 60px;
+    background-color: #333;
+    text-align: center;
+    color: #2cccc4;
+}
+.creations-names p {
+    font-size: large;
+}
+
